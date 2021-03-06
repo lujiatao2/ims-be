@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ims-web
+  main:
+    #防止报错：The bean 'ims-service.FeignClientSpecification' could not be registered. A bean with that name has already been defined and overriding is disabled.
+    allowBeanDefinitionOverriding: true
+server:
+  port: 8083
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://127.0.0.1:8081/eureka}
