@@ -13,7 +13,7 @@ Element
 
 ## 架构
 
-![IMS Architecture](https://www.processon.com/embed/604330091e08531bf8cc649e)
+![IMS Architecture](https://raw.githubusercontent.com/lujiatao2/ims-be/master/src/main/resources/IMS%E6%9E%B6%E6%9E%84.png)
 
 ## 主页
 
